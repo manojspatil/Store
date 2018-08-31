@@ -12,7 +12,8 @@ namespace WebStoreManagement.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Hi";
-            return View();
+            return View()
+                //test;
         }
     }
 }
